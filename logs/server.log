@@ -1,0 +1,32 @@
+INFO:     Will watch for changes in these directories: ['/home/workspace']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [245] using StatReload
+INFO:     Started server process [247]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     172.20.0.1:39634 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:39622 - "POST /users HTTP/1.1" 200 OK
+INFO:     172.20.0.1:39622 - "POST /users HTTP/1.1" 200 OK
+INFO:     172.20.0.1:39622 - "POST /conversations HTTP/1.1" 200 OK
+INFO:     172.20.0.1:39622 - "GET /conversations?user_id=6920748e74c6c5e9d2f6f84d HTTP/1.1" 200 OK
+INFO:     172.20.0.1:39646 - "GET /messages?conversation_id=692075549e496b60b52f4417&limit=100 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:39608 - "POST /users HTTP/1.1" 200 OK
+INFO:     172.20.0.1:39608 - "POST /users HTTP/1.1" 200 OK
+INFO:     172.20.0.1:39608 - "POST /conversations HTTP/1.1" 200 OK
+INFO:     172.20.0.1:39608 - "GET /conversations?user_id=6920748e74c6c5e9d2f6f84d HTTP/1.1" 200 OK
+INFO:     172.20.0.1:39646 - "GET /messages?conversation_id=692075549e496b60b52f4417&limit=100 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53926 - "POST /users HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53938 - "POST /users HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53938 - "POST /users HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53926 - "POST /users HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53938 - "POST /conversations HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53926 - "POST /conversations HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53938 - "GET /conversations?user_id=6920748e74c6c5e9d2f6f84d HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53926 - "GET /messages?conversation_id=692075549e496b60b52f4417&limit=100 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53938 - "GET /conversations?user_id=6920748e74c6c5e9d2f6f84d HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53926 - "GET /messages?conversation_id=692075549e496b60b52f4417&limit=100 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:36280 - "OPTIONS /messages HTTP/1.1" 200 OK
+INFO:     172.20.0.1:36280 - "POST /messages HTTP/1.1" 200 OK
+INFO:     172.20.0.1:36280 - "GET /conversations?user_id=6920748e74c6c5e9d2f6f84d HTTP/1.1" 200 OK
+INFO:     172.20.0.1:36292 - "GET /messages?conversation_id=692075559e496b60b52f4418&limit=100 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:36292 - "GET /messages?conversation_id=692075549e496b60b52f4417&limit=100 HTTP/1.1" 200 OK
